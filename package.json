@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "format": "prettier --write \"src/**/*.{js,vue,css,scss,json,md}\""
   },
   "dependencies": {
     "@arte/videojs-vast": "^1.5.3",
@@ -17,6 +18,7 @@
     "@nuxtjs/i18n": "^7.3.1",
     "@nuxtjs/pwa": "^3.3.2",
     "axios": "^1.7.9",
+    "bootstrap": "^5.3.7",
     "bootstrap-vue": "^2.23.1",
     "cookie-universal-nuxt": "^2.1.5",
     "node-gyp": "^8.4.1",
@@ -56,6 +58,7 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^3.6.2",
     "sass": "^1.90.0",
     "sass-loader": "^10.5.2",
     "vue-template-compiler": "^2.6.14"
