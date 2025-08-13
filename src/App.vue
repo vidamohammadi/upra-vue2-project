@@ -1,15 +1,23 @@
 <template>
-  <v-app>
-    <v-main>
-      <v-container>
-        <v-btn color="primary">سلام Vuetify!</v-btn>
-      </v-container>
-    </v-main>
+  <v-app dark>
+    <div id="app" class="app-background">
+      <MainView />
+    </div>
   </v-app>
 </template>
 
 <script>
-export default {
-  name: 'App',
-}
+  import MainView from '@/components/header/MainView.vue';
+
+  export default {
+    components: {MainView}
+  };
 </script>
+
+<style>
+  .app-background {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+  }
+</style>
