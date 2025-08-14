@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('~@/assets/fonts/danawebGX.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.v-application {
+    font-family: 'MyFont', sans-serif !important;
+}
+

@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-
-// Import Vuetify و استایل‌ها
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import '@/assets/fonts.css'
+import '@mdi/font/css/materialdesignicons.css';
 
 Vue.config.productionTip = false
 
