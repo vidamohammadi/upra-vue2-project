@@ -1,7 +1,7 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-col cols="7" style="width: 100%; margin-top: 200px" dir="rtl" >
+  <v-container fluid class="pa-10">
+    <v-row class="justify-space-between ">
+      <v-col cols="6" style="width: 100%; margin-top: 200px" dir="rtl" >
         <v-row>
           <h2 class="white--text font-weight-bold pr-10">
             هر لحظه و هرجا با آپرا فیلم ببین!
@@ -64,7 +64,7 @@
           </v-col>
         </v-row>
       </v-col>
-      <v-col cols="5">
+      <v-col cols="4" class="">
         <v-img :src="imageSrc"></v-img>
       </v-col>
     </v-row>
