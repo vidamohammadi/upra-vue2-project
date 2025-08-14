@@ -2,7 +2,7 @@
   <v-img
     :src="imageSrc"
     width="100%"
-    height="550px"
+    :height="isMobile? '250px' : '550px'"
     position="center top"
     :contain="isMobile">
     <!--    <div class="gradient-overlay"></div>-->
