@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="pa-10">
+  <v-container fluid class="pa-lg-10 pa-5">
     <v-row class="justify-space-between" dir="rtl">
       <v-col cols="12" lg="4">
         <v-img :src="imageSrc"></v-img>
@@ -31,7 +31,7 @@
             </span>
           </v-col>
 
-          <v-col cols="6" lg="3">
+          <v-col cols="5" lg="3" class="ml-2">
             <v-btn
               color="#ff6633"
               class="white--text d-flex rounded-lg mx-2 fixed-size-btn"
@@ -44,7 +44,7 @@
               <v-icon size="15">mdi-chevron-up</v-icon>
             </v-btn>
           </v-col>
-          <v-col cols="6" lg="3">
+          <v-col cols="5" lg="3">
             <v-btn
               color="#ff6633"
               class="white--text rounded-lg mx-2 fixed-size-btn"
@@ -72,7 +72,7 @@
             </span>
           </v-col>
 
-          <v-col cols="6" lg="3">
+          <v-col cols="5" lg="3" class="ml-2">
             <v-btn
               color="#ff6633"
               class="white--text rounded-lg mx-2 fixed-size-btn"
@@ -85,7 +85,7 @@
               <v-icon size="15">mdi-chevron-up</v-icon>
             </v-btn>
           </v-col>
-          <v-col cols="6" lg="3">
+          <v-col cols="5" lg="3">
             <v-btn
               color="#ff6633"
               class="white--text rounded-lg mx-2 fixed-size-btn"
@@ -123,7 +123,7 @@
 <style scoped>
   .fixed-size-btn {
     min-width: unset !important;
-    width: 150px;
+    width: 155px;
     height: 40px;
   }
 </style>

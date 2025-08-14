@@ -1,16 +1,17 @@
 <template>
-  <v-container fluid>
-    <p dir="rtl" class="px-10" style="font-size: 24px">تازه های آپرا</p>
+  <v-container fluid class="pa-0">
+    <p dir="rtl" class="px-10" style="font-size: 24px" v-if="!isMobile">تازه های آپرا</p>
     <v-slide-group
       v-model="model"
-      class="pa-4"
+      class="pa-lg-4 d-block d-lg-flex"
       active-class="success"
-      show-arrows>
-      <template v-slot:next>
+      show-arrows
+    >
+      <template v-slot:next v-if="!isMobile">
         <v-icon size="24" color="white">mdi-arrow-right-bold-box</v-icon>
       </template>
 
-      <template v-slot:prev>
+      <template v-slot:prev v-if="!isMobile">
         <v-icon size="24" color="white">mdi-arrow-left-bold-box</v-icon>
       </template>
       <v-slide-item
@@ -41,6 +42,11 @@
           {name: 'محصول ۶', image: newBanner}
         ]
       };
+    },
+    computed: {
+      isMobile() {
+        return this.$vuetify.breakpoint.smAndDown;
+      }
     }
   };
 </script>
