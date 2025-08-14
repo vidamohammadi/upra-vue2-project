@@ -17,7 +17,10 @@
         تلویزیون امکان تماشای محتوا را در هر زمان و مکانی فراهم می‌کند.
       </p>
     </v-col>
-    <v-col cols="5" style="background-color: #373737" class="pa-4 rounded-lg mb-5">
+    <v-col
+      cols="5"
+      style="background-color: #373737"
+      class="pa-4 rounded-lg mb-5">
       <v-icon
         color="white"
         size="15"
@@ -48,7 +51,10 @@
         و تجربه ای جدید در تماشای آنلاین
       </p>
     </v-col>
-    <v-col cols="5" style="background-color: #404040" class="pa-4 rounded-lg mb-5">
+    <v-col
+      cols="5"
+      style="background-color: #404040"
+      class="pa-4 rounded-lg mb-5">
       <v-icon
         color="white"
         size="15"
@@ -56,10 +62,10 @@
         class="pa-1 rounded">
         mdi-high-definition-box
       </v-icon>
-      <span style="font-size: 12px" class="mr-1">محتوای متنوع و کامل</span>
+      <span style="font-size: 12px" class="mr-1">کیفیت پخش بالا</span>
       <p style="font-size: 10px">
-        کامل ترین مجموعه فیلم و سریال های ایرانی و خارجی، دسترسی به محتوای متنوع
-        و تجربه ای جدید در تماشای آنلاین
+        پلتفرم آپرا با ارائه کیفیت‌های متنوع پخش، به کاربران امکان می‌دهد تا بر
+        اساس سرعت اینترنت خود، بهترین کیفیت را انتخاب کنند.
       </p>
     </v-col>
   </v-row>
