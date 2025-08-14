@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <p dir="rtl" class="px-10">تازه های آپرا</p>
+    <p dir="rtl" class="px-10" style="font-size: 24px">تازه های آپرا</p>
     <v-slide-group
       v-model="model"
       class="pa-4"
