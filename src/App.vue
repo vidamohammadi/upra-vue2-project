@@ -5,6 +5,7 @@
       <IntroductionSection />
       <NewsSection />
       <FavoriteSection />
+      <ChildrenSection />
     </div>
   </v-app>
 </template>
@@ -14,9 +15,10 @@
   import IntroductionSection from "@/components/IntroductionSection.vue";
   import NewsSection from "@/components/news-section/NewsSection.vue";
   import FavoriteSection from "@/components/favorite-section/FavoriteSection.vue";
+  import ChildrenSection from "@/components/children's-section/ChildrenSection.vue";
 
   export default {
-    components: {FavoriteSection, NewsSection, IntroductionSection, MainView}
+    components: {ChildrenSection, FavoriteSection, NewsSection, IntroductionSection, MainView}
   };
 </script>
 
