@@ -6,19 +6,28 @@
       <NewsSection />
       <FavoriteSection />
       <ChildrenSection />
+      <MainFooter />
     </div>
   </v-app>
 </template>
 
 <script>
   import MainView from '@/components/header/MainView.vue';
-  import IntroductionSection from "@/components/IntroductionSection.vue";
-  import NewsSection from "@/components/news-section/NewsSection.vue";
-  import FavoriteSection from "@/components/favorite-section/FavoriteSection.vue";
+  import IntroductionSection from '@/components/IntroductionSection.vue';
+  import NewsSection from '@/components/news-section/NewsSection.vue';
+  import FavoriteSection from '@/components/favorite-section/FavoriteSection.vue';
   import ChildrenSection from "@/components/children's-section/ChildrenSection.vue";
+  import MainFooter from '@/components/footer/MainFooter.vue';
 
   export default {
-    components: {ChildrenSection, FavoriteSection, NewsSection, IntroductionSection, MainView}
+    components: {
+      MainFooter,
+      ChildrenSection,
+      FavoriteSection,
+      NewsSection,
+      IntroductionSection,
+      MainView
+    }
   };
 </script>
 
